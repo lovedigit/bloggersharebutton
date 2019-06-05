@@ -1,0 +1,176 @@
+/*Share Plugin*/
+
+.plugin-share {
+    display: block;
+    padding-bottom: 0;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    border: 0 solid #FFF;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: left;
+    line-height: 13px
+}
+
+.plugin-share p {
+    color: #7FC04C;
+    margin: 0
+}
+
+.plugin-share span {
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    color: #8A8C8E;
+    display: block;
+    padding-bottom: 0;
+    padding-top: 10px
+}
+
+.fb-share-btn,
+.more-btn,
+.plugin-class a,
+.tw-share-btn {
+    display: inline-block
+}
+
+.plugin-class a {
+    line-height: 44px;
+    padding: 0 4px;
+    color: #FFF;
+    border-radius: 2px;
+    vertical-align: middle;
+    font-family: FontAwesome;
+    font-weight: 700;
+    font-size: 14px
+}
+
+.plugin-class a:hover {
+    text-decoration: none
+}
+
+.plugin-class {
+    margin: 0 4px 0 0;
+    font-size: 22px
+}
+
+#fb-share-btn i,
+#tw-share-btn i {
+    margin-right: 5px
+}
+
+.fb-share-btn {
+    background: #3b5998
+}
+
+.fb-share-btn:hover {
+    background: #244872
+}
+
+.tw-share-btn {
+    background: #26c4f1
+}
+
+.tw-share-btn:hover {
+    background: #0eaad6
+}
+
+.plugin-more {
+    display: none
+}
+
+.hide-btn,
+.more-btn {
+    background: #C5C5C5
+}
+
+.more-btn,
+.plugin-more a {
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFF;
+    width: 42px;
+    height: 44px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 0!important
+}
+
+.plugin-class a {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    margin-left: 0;
+    float: left
+}
+
+.plugin-class i {
+    font-size: 20px
+}
+
+.more-btn i,
+.plugin-more i {
+    margin: 0
+}
+
+.gg-btn {
+    background: #e93f2e
+}
+
+.gg-btn:hover {
+    background: #ce2616
+}
+
+.lk-btn {
+    background: #257BBA
+}
+
+.lk-btn:hover {
+    background: #005983
+}
+
+.pi-btn {
+    background: #DE0B30
+}
+
+.pi-btn:hover {
+    background: #8a1119
+}
+
+.su-btn {
+    background: #eb4823
+}
+
+.su-btn:hover {
+    background: #BC3A1C
+}
+
+.dg-btn {
+    background: #2952CC
+}
+
+.dg-btn:hover {
+    background: #36F
+}
+
+.re-btn {
+    background: #291400
+}
+
+.re-btn:hover {
+    background: #544333
+}
+
+.de-btn {
+    background: #296ACC
+}
+
+.de-btn:hover {
+    background: #5C9DFF
+}
+
+.plugin-class p {
+    font-size: 50px;
+    padding: 0
+}
