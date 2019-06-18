@@ -72,8 +72,7 @@ $(document).ready(function() {
             i.preventDefault(), window.open("https://delicious.com/save?v=5&noui&jump=close&url=" + t + "&title=" + n, "Delicious", "status=0,width=500,height=500, top=0, left=0, toolbar=0, location=0, menubar=0, directories=0, scrollbars=0")
         })
     })
-}), $(".more-btn").click(function(t) {
-    t.preventDefault(), $(this).parent().find(".plugin-more").css("display", "inline-block"), $(this).css("display", "none")
-}), $(".hide-btn").click(function(t) {
+}), $this.find(".more-btn").on("click",function(t) {t.preventDefault(), $(this).parent().find(".plugin-more").css("display", "inline-block"), $(this).css("display", "none")}), 
+$this.find(".hide-btn").on("click",function(t) {
     t.preventDefault(), $(this).parent().css("display", "none"), $(this).parent().parent().find(".more-btn").css("display", "inline-block")
 });
