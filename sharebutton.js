@@ -5,7 +5,7 @@ $(document).ready(function() {
             i = $(".plugin-class").index(this),
             e = {
                 method: "pos.plusones.get",
-                id: "http://stylehatch.co/",
+                id: "https://digitfreak.com/",
                 params: {
                     nolog: !0,
                     id: t,
